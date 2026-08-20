@@ -5,11 +5,10 @@
 # that a raw pandoc-on-HTML conversion would keep). Skips top-level marketing
 # pages (/, /pro, /shop, /videos, ...) and essays -- not needed for reference.
 #
-# data-star.dev also publishes an aggregated /docs.md export, but it only
-# covers guide/ fully plus 2 of 6 reference/ pages (verified: no "Rocket",
-# "SSE Events", "SDKs", or "Security" sections) -- everything below is
-# scraped directly instead, so the mirror is complete and not dependent on
-# that export staying in sync with the full site.
+# data-star.dev also publishes an aggregated /docs.md export, but it has no
+# examples/ or how_tos/ content at all. Everything below is scraped directly
+# anyway, so the mirror is self-contained and not dependent on that export
+# staying in sync with the site over time.
 #
 # Usage: ./mirror-datastar-docs.sh [output-dir]
 # Requires: curl, python3 with the trafilatura package importable

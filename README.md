@@ -6,10 +6,11 @@ reference.
 
 ## Why
 
-[data-star.dev](https://data-star.dev) publishes an aggregated export at https://data-star.dev/docs.md
-for LLMs to consume. It's incomplete (checked 2026-08-20): covers `guide/`
-fully, only 2 of 6 `reference/` pages, no `examples/` or `how_tos/` at all.
-Might improve later, but until then, scrape it yourself.
+[data-star.dev](https://data-star.dev) publishes an aggregated export at
+https://data-star.dev/docs.md for LLMs to consume, but it has no `examples/`
+or `how_tos/` content at all. This mirror scrapes everything itself anyway —
+self-contained, not dependent on that export staying in sync with the site
+over time.
 
 ## Requirements
 
